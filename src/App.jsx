@@ -4,6 +4,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import Navbar from './components/Navbar';
+import Hero from './Components/Hero';
 
 import './App.css';
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <>
      <div className="App">
       <Navbar />
+      <Hero />
      
     </div>
     </>
