@@ -7,8 +7,11 @@ import Navbar from './components/Navbar';
 import Hero from './Components/Hero';
 import Services from './Components/Services';
 import Contact from './Components/Contact';
+import './Components/About';
+import Footer from './Components/Footer';
 
 import './App.css';
+import About from './Components/About'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -19,7 +22,8 @@ function App() {
       <Hero />
       <Services />
       <Contact />
-     
+      <About />
+      <Footer />
     </div>
     </>
   )
